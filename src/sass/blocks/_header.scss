@@ -1,0 +1,61 @@
+.header {
+    padding: 57px 0 146px 0;
+    background-color: #EEEFF1;
+    &_logo {
+        font-family: 'Revalia', cursive;
+        color: #34547A;
+        font-weight: normal;
+        font-size: 48px;
+        line-height: 60px;
+
+    }
+    &_wrapper {
+        display: flex;
+        justify-content: space-between;
+        img {
+            width: 357px;
+            height: 233.7px;
+        }
+    }
+    &_nav ul {
+        display: flex;
+        justify-content: space-around;
+        list-style: none;
+        li {
+            padding-left: 42px;
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 26px;
+            letter-spacing: 0.1em;
+            color: #34547A;
+        }
+        
+    }
+    &_top{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 161px;
+    }
+    &_content{
+        padding-left: 131px;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 26px;
+        color: #727272;
+        h1 {
+            font-family: Roboto;
+            font-style: normal;
+            font-size: 48px;
+            line-height: 79px;
+            color: #000000;
+        }
+        p {
+            margin-bottom: 60px;
+        }
+    }
+}
