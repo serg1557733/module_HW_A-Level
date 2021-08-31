@@ -1,7 +1,7 @@
 .header {
     padding: 57px 0 146px 0;
     background-color: #EEEFF1;
-    &_logo {
+    &__logo {
         font-family: 'Revalia', cursive;
         color: #34547A;
         font-weight: normal;
@@ -9,7 +9,7 @@
         line-height: 60px;
 
     }
-    &_wrapper {
+    &__wrapper {
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -18,7 +18,7 @@
             height: 233.7px;
         }
     }
-    &_nav ul {
+    &__nav ul {
         display: flex;
         justify-content: space-around;
         list-style: none;
@@ -32,10 +32,9 @@
             letter-spacing: 0.1em;
             color: #34547A;
             text-decoration: none;
-        }
-        
+        }       
     }
-    &_top{
+    &__top{
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -43,8 +42,11 @@
         h2 {
             margin: 0;
         }
+        a {
+            text-decoration: none;
+        }
     }
-    &_content{
+    &__content{
         padding-left: 131px;
         font-style: normal;
         font-weight: normal;
