@@ -12,7 +12,7 @@ html {
     box-sizing: inherit;
 }
 .container {
-    max-width: 1160px;
+    max-width: 1110px;
     margin: 0 auto;
     padding: 0 10px 0 10px
 }
@@ -22,3 +22,7 @@ html {
 @import 'blocks/numbers';
 @import 'blocks/skills';
 @import 'blocks/video';
+@import 'blocks/projects';
+@import 'blocks/clients';
+@import 'blocks/form';
+@import 'blocks/footer';
