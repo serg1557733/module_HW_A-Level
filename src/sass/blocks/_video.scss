@@ -9,7 +9,6 @@
     line-height: 26px;
     text-align: center;
     color: #727272;
-    position: relative;
     h2 {
         font-weight: 500;
         font-size: 32px;
@@ -22,10 +21,19 @@
         max-width:540px;
         margin-bottom: 57px;
     }
+    &__img {
+        position: relative;
+        max-width: 1110px;
+        & img {
+            vertical-align: top;
+            max-width: 100%;
+            height: auto;
+        }
+    }
     &__play {
         position: absolute;
         top:50%;
         left:50%;
-        transform: translate(-50%, 50%);
+        transform: translate(-50%, -50%);
     }
 }

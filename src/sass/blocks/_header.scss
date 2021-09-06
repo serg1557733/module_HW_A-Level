@@ -18,8 +18,9 @@
             height: 233.7px;
         }
     }
-    &__nav ul {
+    &__pc {
         display: flex;
+        position: relative;
         justify-content: space-around;
         list-style: none;
         li a{
@@ -64,5 +65,8 @@
 
             margin:0 0 60px 0;
         }
+    }
+    &__burger {
+        display: none;
     }
 }

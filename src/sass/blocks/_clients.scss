@@ -4,5 +4,11 @@
         min-height: 120px;
         display: flex;
         justify-content: space-between;
+        align-items: center;
+    }
+    &__img {
+        vertical-align: top;
+        max-width: 255px;
+        height: auto;
     }
 }
