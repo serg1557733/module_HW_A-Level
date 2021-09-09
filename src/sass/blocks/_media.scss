@@ -104,6 +104,10 @@
             justify-content: center;
         }
     }
+    .col {
+        max-width: 33.333%;
+         
+    }
     .skills__progress {
         max-width: 250px;
         &:after {
@@ -137,6 +141,10 @@
         &:after {
             max-width: 50%;  
         } 
+    }
+    .col {
+        max-width: 50%;
+         
     }
     .form {
         &__inputs {
